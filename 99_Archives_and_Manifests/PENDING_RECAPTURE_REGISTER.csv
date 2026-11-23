@@ -1,0 +1,2 @@
+repo,source_label,url,attempted_method,failure_reason,first_attempt_utc,last_attempt_utc,status,owner,next_action,notes
+US_DJ_DJIBOUTI,UNESCO Memory of the World,https://www.unesco.org/en/memory-world,browser+direct-urllib,HTTP Error 403: Forbidden,2026-11-23,2026-11-23,PENDING_RECAPTURE,UNASSIGNED,"Retry browser/direct capture; if blocked, manual/FOIA/custodian path; do not fabricate.",Wave 3 capture failed; browse tool unavailable for later direct-fallback pass.

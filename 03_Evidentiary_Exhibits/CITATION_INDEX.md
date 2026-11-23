@@ -1,20 +1,29 @@
 # Citation Index
 
-Rule: NO_VERIFIED_WITHOUT_LOCAL_HASHED_ARTIFACT. All PENDING_LEGAL_REVIEW.
-
-- CIT-0001: https://digitallibrary.un.org/search | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_01_UN_Digital_Library_-_Search.html` | `e3b0c44298fc1c14...` | PENDING_LEGAL_REVIEW
-- CIT-0002: https://au.int/ | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_04_African_Union.html` | `72ead2dcabcc4041...` | PENDING_LEGAL_REVIEW
-- CIT-0003: https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/ | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_05_US_State_Dept_Human_Rights_Reports.html` | `bf08c5f0f19a93ba...` | PENDING_LEGAL_REVIEW
-- CIT-0004: https://history.state.gov/historicaldocuments | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_06_US_State_Dept_Office_of_the_Historian_FRUS.html` | `c948fdff783f2e5f...` | PENDING_LEGAL_REVIEW
-- CIT-0005: https://www.archives.gov/research/foreign-policy | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_07_NARA_Foreign_Affairs_Research.html` | `c4cda55cb948dfd6...` | PENDING_LEGAL_REVIEW
-- CIT-0006: https://treaties.un.org/ | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_10_UN_Treaty_Collection.html` | `11843609ba917a42...` | PENDING_LEGAL_REVIEW
-- CIT-0007: https://www.icj-cij.org/cases | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_11_ICJ_Cases.html` | `c66ffe4b81a51b59...` | PENDING_LEGAL_REVIEW
-- CIT-0008: https://achpr.au.int/ | `03_Evidentiary_Exhibits/Immutable_Ledger/DJ_12_African_Commission_on_Human_and_Peoples_Rights.html` | `aaae902ae5477bcd...` | PENDING_LEGAL_REVIEW
-- CIT-0009: https://www.foia.gov/ | `03_Evidentiary_Exhibits/Immutable_Ledger/FOIA.gov.html` | `f65664e37a965fe2...` | PENDING_LEGAL_REVIEW
-- CIT-0010: https://archive.org/ | `03_Evidentiary_Exhibits/Immutable_Ledger/Internet_Archive.html` | `329de0d85f690421...` | PENDING_LEGAL_REVIEW
-- CIT-0011: https://www.loc.gov/ | `03_Evidentiary_Exhibits/Immutable_Ledger/Library_of_Congress.html` | `954e885a8a94a297...` | PENDING_LEGAL_REVIEW
-- CIT-0012: https://www.archives.gov/foia | `03_Evidentiary_Exhibits/Immutable_Ledger/NARA_FOIA.html` | `10a153c64fe2af1e...` | PENDING_LEGAL_REVIEW
-- CIT-0013: https://www.govinfo.gov/ | `03_Evidentiary_Exhibits/Immutable_Ledger/US_Govt_Publishing_Office.html` | `2afbc7eda2fb8bd7...` | PENDING_LEGAL_REVIEW
-- CIT-0014: https://www.archives.gov/ | `03_Evidentiary_Exhibits/Immutable_Ledger/US_National_Archives.html` | `b1be5889069b829d...` | PENDING_LEGAL_REVIEW
-- CIT-0015: https://en.wikisource.org/ | `03_Evidentiary_Exhibits/Immutable_Ledger/Wikisource.html` | `f1f02568e88c7f73...` | PENDING_LEGAL_REVIEW
-- CIT-0016: https://search.worldcat.org/ | `03_Evidentiary_Exhibits/Immutable_Ledger/WorldCat.html` | `9ece88a2cdcc28c1...` | PENDING_LEGAL_REVIEW
+| citation_id | url | local_artifact | sha256 | verification_status | quality_flag | substantive | annotation_note |
+|---|---|---|---|---|---|---|---|
+| CIT-0001 | https://digitallibrary.un.org/search | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_01_UN_Digital_Library_-_Search.html | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | PENDING_LEGAL_REVIEW | EMPTY_CAPTURE_PENDING_RECAPTURE | False | Empty capture artifact (0 bytes); pending recapture. |
+| CIT-0002 | https://au.int/ | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_04_African_Union.html | 72ead2dcabcc4041bc38e77cc0c851c3ef8c31eea79193cec3546c27b8ab3601 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0003 | https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/ | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_05_US_State_Dept_Human_Rights_Reports.html | bf08c5f0f19a93ba0c9bcefc122c45dcfb918ecc6f2a4a90e22a4024765a7b4e | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0004 | https://history.state.gov/historicaldocuments | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_06_US_State_Dept_Office_of_the_Historian_FRUS.html | c948fdff783f2e5f735777ee50bcbb0275a5f704e4309529f3aaa966605f6580 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0005 | https://www.archives.gov/research/foreign-policy | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_07_NARA_Foreign_Affairs_Research.html | c4cda55cb948dfd610644cf234e08f4acedde9c212465f89697e2aae8fbf2451 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0006 | https://treaties.un.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_10_UN_Treaty_Collection.html | 11843609ba917a422a76a0d025bca7412e510c44c0b279b75f2321503fa4e065 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0007 | https://www.icj-cij.org/cases | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_11_ICJ_Cases.html | c66ffe4b81a51b59d14e73af2f122066427f895cede793d1e45df84348663107 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0008 | https://achpr.au.int/ | 03_Evidentiary_Exhibits/Immutable_Ledger/DJ_12_African_Commission_on_Human_and_Peoples_Rights.html | aaae902ae5477bcd29e61ad0677c965e45db80d1838ad66c3c88daa8f6ed6f81 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0009 | https://www.foia.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/FOIA.gov.html | f65664e37a965fe209bf650b75fc75d258414a8b3de533daca0f36f061289bb6 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0010 | https://archive.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Internet_Archive.html | 329de0d85f6904215feec653c153fdc1f7f8807e3bfaedb8c05542fcf3c2419f | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0011 | https://www.loc.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Library_of_Congress.html | 954e885a8a94a297bfad4f39decbc776a07bbec9253527ed3295f17931b3652b | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0012 | https://www.archives.gov/foia | 03_Evidentiary_Exhibits/Immutable_Ledger/NARA_FOIA.html | 10a153c64fe2af1e0ff231a21507c4f5d0ee75706dff0532d5dd63839c47fe66 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0013 | https://www.govinfo.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/US_Govt_Publishing_Office.html | 2afbc7eda2fb8bd786e4fa221fcfb9740604902b8a053e61d9d36a20f20993b7 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0014 | https://www.archives.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/US_National_Archives.html | b1be5889069b829d9a2e1f7c05017dd31c0dca382d1e3b3a18d7ef8b6bc77893 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0015 | https://en.wikisource.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Wikisource.html | f1f02568e88c7f7327e2592f2cd8064cc67353af713a715cbfe36eaa2f0fe50a | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0016 | https://search.worldcat.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/WorldCat.html | 9ece88a2cdcc28c12ff01e168017942ccc97c159bbb91130eae33a36ebfa7596 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0017 | https://www.archives-nationales.culture.gouv.fr/ | 03_Evidentiary_Exhibits/Immutable_Ledger/French_National_Archives_public_portal.html | e7cf8c9c80bac0ba01156deece634152a7320c9d9bdfc0de4fe579e70ec601f1 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0018 | https://chroniclingamerica.loc.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Chronicling_America_LOC_browser.html | 05c0f0a2c7e2533c977080edf847b2642ab7bbc295e22f676b640335792f3ba5 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0019 | https://www.courtlistener.com/ | 03_Evidentiary_Exhibits/Immutable_Ledger/CourtListener_browser.html | 3682ac430ff37e8e2c7759ceb019bd03ba834e0fe5ad16ec171da6f63625581a | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0020 | https://babel.hathitrust.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/HathiTrust_Digital_Library_browser.html | 0857a836f4802002efb0bb84619dfb922160d6d04e2f2e98e821f782514c5827 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0021 | https://www.justia.com/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Justia_browser.html | 1aed372b94bbc598af1c9c33a8eca7702d4180cf445fe0e27fa451679ba76dbf | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0022 | https://www.loc.gov/item/?q=djibouti+colonial+french+somaliland | 03_Evidentiary_Exhibits/Immutable_Ledger/Library_of_Congress_-_Djibouti_browser.html | 36f923bbb0fe8539343a13ded5b27917785214950b491841abea31d3c6603c61 | PENDING_LEGAL_REVIEW | NOT_SUBSTANTIVE_404_PENDING_RECAPTURE | False | Browser capture landed on LOC 404/not-found page; not substantive evidence. Pending recapture with corrected URL. |
+| CIT-0023 | https://digitallibrary.un.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/UN_Digital_Library_browser.html | 82a3db0197cef4d3688c9b838e7870b5ea99b53aa150e8e9836aeb01247d47a9 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0024 | https://www.ohchr.org/en/countries/djibouti | 03_Evidentiary_Exhibits/Immutable_Ledger/UN_OHCHR_Djibouti_browser.html | 02eced17777af5ec9e43bbae29bc1a779387ecc6293e29ce1bae7302cec155ce | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0025 | https://data.worldbank.org/country/djibouti | 03_Evidentiary_Exhibits/Immutable_Ledger/World_Bank_Djibouti_browser.html | b00a84a95589e53fa52945a21a9bf8978e83a706c69f038440928144bcb1bbcc | PENDING_LEGAL_REVIEW |  |  |  |
